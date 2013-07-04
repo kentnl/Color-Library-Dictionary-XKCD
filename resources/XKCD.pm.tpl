@@ -7,8 +7,8 @@ package Color::Library::Dictionary::XKCD;
 
 =head1 DESCRIPTION
 
-The web comic L<<< B<< C<XKCD> >>|http://xkcd.com >>> ran a rather wide-spread colour survey
-to gauge the social perception of colours, at least, with regard to screen print spaces.
+The web comic L<<< B<< C<XKCD> >>|http://xkcd.com >>> ran a rather wide-spread color survey
+to gauge the social perception of colors, at least, with regard to screen print spaces.
 
 The findings of this survey can be found here: L<<< B<< C<blog.xkcd.com/2010/05/03/color-survey-results/> >>|http://blog.xkcd.com/2010/05/03/color-survey-results/ >>>
 
@@ -21,6 +21,7 @@ The findings of this survey can be found here: L<<< B<< C<blog.xkcd.com/2010/05/
 
 =cut
 
+use Color::Library;
 use Moo;
 extends 'Color::Library::Dictionary';
 
@@ -44,8 +45,8 @@ sub _description {
     'subtitle'    => 'Colors determined by the XKCD Color Survey',
     'title'       => 'XKCD',
     'description' => <<"_EOF_",
-The web comic XKCD[http://xkcd.com] ran a rather wide-spread colour survey
-to gauge the social perception of colours, at least, with regard to screen print spaces.
+The web comic XKCD[http://xkcd.com] ran a rather wide-spread color survey
+to gauge the social perception of colors, at least, with regard to screen print spaces.
 
 The findings of this survey can be found here:
 

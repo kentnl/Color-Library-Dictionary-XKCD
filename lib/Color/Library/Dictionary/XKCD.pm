@@ -13,6 +13,7 @@ BEGIN {
 
 
 
+use Color::Library;
 use Moo;
 extends 'Color::Library::Dictionary';
 

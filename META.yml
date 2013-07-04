@@ -3,7 +3,6 @@ abstract: 'Colors determined by the XKCD Color Survey.'
 author:
   - 'Kent Fredric <kentfredric@gmail.com>'
 build_requires:
-  Color::Library: 0
   File::Find: 0
   File::Temp: 0
   Module::Build: 0.4005
