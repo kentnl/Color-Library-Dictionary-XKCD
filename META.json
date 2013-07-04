@@ -43,7 +43,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Color::Library" : "0.21",
+            "Color::Library" : "0.021",
             "Color::Library::Dictionary" : "0",
             "Moo" : "0",
             "perl" : "v5.10.0",
