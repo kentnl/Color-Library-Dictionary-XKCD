@@ -18,8 +18,8 @@ use Color::Library;
 
 {
   my $xkcd = Color::Library->XKCD();
-  ok( defined $xkcd , 'XKCD returns something' );
+  ok( defined $xkcd, 'XKCD returns something' );
   my $color = $xkcd->color('windows blue');
-  ok( defined $color , "windows blue in the XKCD namespace");
+  ok( defined $color, "windows blue in the XKCD namespace" );
 }
 done_testing;
