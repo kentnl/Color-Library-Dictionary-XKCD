@@ -43,6 +43,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Color::Library::Dictionary" : "0",
             "Moo" : "0",
             "perl" : "v5.10.0",
             "strict" : "0",
@@ -51,6 +52,7 @@
       },
       "test" : {
          "requires" : {
+            "Color::Library" : "0",
             "File::Find" : "0",
             "File::Temp" : "0",
             "Test::More" : "0.98"
@@ -67,6 +69,8 @@
    "version" : "0.1.0",
    "x_BuiltWith" : {
       "modules" : {
+         "Color::Library" : "0.021",
+         "Color::Library::Dictionary" : "NA(undef)",
          "Dist::Zilla::PluginBundle::Author::KENTNL" : "1.7.4",
          "Dist::Zilla::PluginBundle::Author::KENTNL::Lite" : "NA(possibly not installed)",
          "File::Find" : "1.23",

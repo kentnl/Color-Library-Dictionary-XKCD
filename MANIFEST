@@ -9,8 +9,13 @@ README
 dist.ini
 lib/Color/Library/Dictionary/XKCD.pm
 perlcritic.rc
+resources/assemble_colorlist.pl
+resources/assemble_colorlist_pod.pl
+resources/fetch_rgb_txt.pl
+resources/rgb.txt
 t/00-compile.t
 t/000-report-versions-tiny.t
+t/basic.t
 weaver.ini
 xt/author/critic.t
 xt/release/cpan-changes.t

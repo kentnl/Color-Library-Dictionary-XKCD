@@ -23,6 +23,7 @@ my %module_build_args = (
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
+    "Color::Library::Dictionary" => 0,
     "Moo" => 0,
     "perl" => "v5.10.0",
     "strict" => 0,
@@ -30,6 +31,7 @@ my %module_build_args = (
   },
   "script_files" => [],
   "test_requires" => {
+    "Color::Library" => 0,
     "File::Find" => 0,
     "File::Temp" => 0,
     "Test::More" => "0.98"

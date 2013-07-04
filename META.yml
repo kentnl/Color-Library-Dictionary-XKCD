@@ -3,6 +3,7 @@ abstract: 'Colors determined by the XKCD Color Survey.'
 author:
   - 'Kent Fredric <kentfredric@gmail.com>'
 build_requires:
+  Color::Library: 0
   File::Find: 0
   File::Temp: 0
   Module::Build: 0.4005
@@ -21,6 +22,7 @@ provides:
     file: lib/Color/Library/Dictionary/XKCD.pm
     version: v0.1.0
 requires:
+  Color::Library::Dictionary: 0
   Moo: 0
   perl: v5.10.0
   strict: 0
@@ -28,6 +30,8 @@ requires:
 version: 0.1.0
 x_BuiltWith:
   modules:
+    Color::Library: 0.021
+    Color::Library::Dictionary: NA(undef)
     Dist::Zilla::PluginBundle::Author::KENTNL: 1.7.4
     Dist::Zilla::PluginBundle::Author::KENTNL::Lite: 'NA(possibly not installed)'
     File::Find: 1.23
