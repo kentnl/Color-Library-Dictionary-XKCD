@@ -43,6 +43,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Color::Library" : "0.21",
             "Color::Library::Dictionary" : "0",
             "Moo" : "0",
             "perl" : "v5.10.0",
@@ -389,7 +390,7 @@
                   "type" : "requires"
                }
             },
-            "name" : "Prereqs",
+            "name" : "RuntimeRequires",
             "version" : "4.300035"
          },
          {
