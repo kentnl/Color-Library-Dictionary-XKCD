@@ -33,7 +33,7 @@ for my $line ( path('.')->child('rgb.txt')->lines_utf8 ) {
 for my $color (@colors) {
   local $Data::Dumper::Terse     = 1;
   local $Data::Dumper::Purity    = 1;
-  local $Data::Dumper::Useqq     = 1;
+  local $Data::Dumper::Useqq     = 0;
   local $Data::Dumper::Indent    = 0;
   local $Data::Dumper::Quotekeys = 0;
   print Dumper($color);
