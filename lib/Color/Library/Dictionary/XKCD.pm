@@ -970,6 +970,7 @@ The findings of this survey can be found here: L<<< B<< C<blog.xkcd.com/2010/05/
 
 =cut
 
+use Color::Library 0.021;
 use Moo;
 extends 'Color::Library::Dictionary';
 
