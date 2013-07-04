@@ -389,7 +389,7 @@
                   "type" : "requires"
                }
             },
-            "name" : "RuntimeRequires",
+            "name" : "Prereqs",
             "version" : "4.300035"
          },
          {

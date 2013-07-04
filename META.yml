@@ -280,7 +280,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Prereqs:
           phase: runtime
           type: requires
-      name: RuntimeRequires
+      name: Prereqs
       version: 4.300035
     -
       class: Dist::Zilla::Plugin::FinderCode
