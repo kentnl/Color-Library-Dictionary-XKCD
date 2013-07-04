@@ -27,11 +27,16 @@ extends 'Color::Library::Dictionary';
 __PACKAGE__->_register_dictionary;
 
 sub _load_color_list {
+
+## no critic (ProhibitMagicNumbers)
+
   return [
 
 {% colors %}
 
   ];
+
+## use critic
 }
 
 sub _description {

@@ -19,6 +19,9 @@ extends 'Color::Library::Dictionary';
 __PACKAGE__->_register_dictionary;
 
 sub _load_color_list {
+
+## no critic (ProhibitMagicNumbers)
+
   return [
 
     [ 'xkcd:cloudy_blue',         'cloudy_blue',         'cloudy blue',         [ 172, 194, 217 ], 'acc2d9', 11322073 ],
@@ -1925,6 +1928,8 @@ sub _load_color_list {
     [ 'xkcd:xkcd_948',              'xkcd_948',              'xkcd 948',              [ 126, 30,  156 ], '7e1e9c', 8265372 ],
 
   ];
+
+## use critic
 }
 
 sub _description {
