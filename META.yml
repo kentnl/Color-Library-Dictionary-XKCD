@@ -5,11 +5,10 @@ author:
 build_requires:
   ExtUtils::MakeMaker: '0'
   File::Spec: '0'
-  Module::Build: '0.4211'
-  Test::More: 1.301001_098
+  Test::More: '0.89'
   perl: '5.006'
 configure_requires:
-  Module::Build: '0.4211'
+  ExtUtils::MakeMaker: '0'
   perl: '5.006'
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 5.032, CPAN::Meta::Converter version 2.143240'
@@ -315,11 +314,11 @@ x_Dist_Zilla:
       name: '@Author::KENTNL/Authority'
       version: '1.009'
     -
-      class: Dist::Zilla::Plugin::ModuleBuild
+      class: Dist::Zilla::Plugin::MakeMaker
       config:
         Dist::Zilla::Role::TestRunner:
           default_jobs: '10'
-      name: '@Author::KENTNL/ModuleBuild'
+      name: '@Author::KENTNL/MakeMaker'
       version: '5.032'
     -
       class: Dist::Zilla::Plugin::Author::KENTNL::RecommendFixes
@@ -461,49 +460,14 @@ x_Dist_Zilla:
       name: '@Author::KENTNL/Twitter'
       version: '0.026'
     -
-      class: Dist::Zilla::Plugin::Prereqs::MatchInstalled
-      config:
-        Dist::Zilla::Plugin::Prereqs::MatchInstalled:
-          applyto:
-            - build.requires
-            - build.recommends
-            - build.suggests
-            - test.requires
-            - test.recommends
-            - test.suggests
-            - runtime.requires
-            - runtime.recommends
-            - runtime.suggests
-            - configure.requires
-            - configure.recommends
-            - configure.suggests
-            - develop.requires
-            - develop.recommends
-            - develop.suggests
-          applyto_phase:
-            - build
-            - test
-            - runtime
-            - configure
-            - develop
-          applyto_relation:
-            - requires
-            - recommends
-            - suggests
-          modules:
-            - Module::Build
-            - Test::More
-      name: '@Author::KENTNL/Prereqs::MatchInstalled'
-      version: '1.001002'
-    -
       class: Dist::Zilla::Plugin::Prereqs::Upgrade
       config:
         Dist::Zilla::Plugin::Prereqs::Upgrade:
           modules:
             Dist::Zila::Plugin::MetaProvides::Package: '2.000000'
             Dist::Zilla: '5'
+            ExtUtils::MakeMaker: '7.00'
             File::ShareDir::Install: '0.10'
-            Module::Build: '0.4004'
             Moo: '1.000008'
             Moose: '2.000'
             Path::Tiny: '0.058'
@@ -584,3 +548,5 @@ x_Dist_Zilla:
       is_trial: '0'
     version: '5.032'
 x_authority: cpan:KENTNL
+x_contributors:
+  - 'Kent Fredric <kentnl@cpan.org>'
