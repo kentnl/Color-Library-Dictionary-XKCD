@@ -4,14 +4,14 @@ Color::Library::Dictionary::XKCD - Colors determined by the XKCD Color Survey.
 
 # VERSION
 
-version 0.1.0
+version 0.001001
 
 # DESCRIPTION
 
-The web comic [__`XKCD`__](http://xkcd.com) ran a rather wide-spread color survey
+The web comic [**`XKCD`**](http://xkcd.com) ran a rather wide-spread color survey
 to gauge the social perception of colors, at least, with regard to screen print spaces.
 
-The findings of this survey can be found here: [__`blog.xkcd.com/2010/05/03/color-survey-results/`__](http://blog.xkcd.com/2010/05/03/color-survey-results/)
+The findings of this survey can be found here: [**`blog.xkcd.com/2010/05/03/color-survey-results/`**](http://blog.xkcd.com/2010/05/03/color-survey-results/)
 
 # COLORS
 
@@ -971,7 +971,7 @@ Kent Fredric <kentfredric@gmail.com>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Kent Fredric <kentfredric@gmail.com>.
+This software is copyright (c) 2015 by Kent Fredric <kentfredric@gmail.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
