@@ -21,7 +21,7 @@ name: Color-Library-Dictionary-XKCD
 provides:
   Color::Library::Dictionary::XKCD:
     file: lib/Color/Library/Dictionary/XKCD.pm
-    version: '0.001001'
+    version: '1.000000'
 recommends:
   Moo: '1.000008'
 requires:
@@ -35,27 +35,13 @@ resources:
   bugtracker: https://github.com/kentfredric/Color-Library-Dictionary-XKCD/issues
   homepage: https://github.com/kentfredric/Color-Library-Dictionary-XKCD
   repository: https://github.com/kentfredric/Color-Library-Dictionary-XKCD.git
-version: '0.001001'
+version: '1.000000'
 x_BuiltWith:
   external_file: misc/built_with.json
 x_Dist_Zilla:
   perl:
     version: '5.021009'
   plugins:
-    -
-      class: Dist::Zilla::Plugin::Git::NextVersion::Sanitized
-      config:
-        Dist::Zilla::Plugin::Git::NextVersion:
-          first_version: '0.001000'
-          version_by_branch: '0'
-          version_regexp: (?^u:^(.*)-source$)
-        Dist::Zilla::Role::Git::Repo:
-          repo_root: .
-        Dist::Zilla::Role::Version::Sanitize:
-          mantissa: '6'
-          normal_form: numify
-      name: '@Author::KENTNL/Git::NextVersion::Sanitized'
-      version: '0.002002'
     -
       class: Dist::Zilla::Plugin::MetaConfig
       name: '@Author::KENTNL/MetaConfig'
@@ -214,9 +200,13 @@ x_Dist_Zilla:
       name: '@Author::KENTNL/ManifestSkip'
       version: '5.032'
     -
-      class: Dist::Zilla::Plugin::PkgVersion
-      name: '@Author::KENTNL/PkgVersion'
-      version: '5.032'
+      class: Dist::Zilla::Plugin::RewriteVersion::Sanitized
+      config:
+        Dist::Zilla::Role::Version::Sanitize:
+          mantissa: '6'
+          normal_form: numify
+      name: '@Author::KENTNL/RewriteVersion::Sanitized'
+      version: '0.001005'
     -
       class: Dist::Zilla::Plugin::PodWeaver
       config:
@@ -395,7 +385,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: 0
-          tag: 0.001001-source
+          tag: 1.000000-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -407,6 +397,10 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Git::NextRelease
       name: '@Author::KENTNL/Git::NextRelease'
       version: '0.004000'
+    -
+      class: Dist::Zilla::Plugin::BumpVersionAfterRelease
+      name: '@Author::KENTNL/BumpVersionAfterRelease'
+      version: '0.009'
     -
       class: Dist::Zilla::Plugin::Git::Commit
       config:
@@ -445,7 +439,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: 0
-          tag: '0.001001'
+          tag: '1.000000'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local

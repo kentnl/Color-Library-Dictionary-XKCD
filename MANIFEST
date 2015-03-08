@@ -10,6 +10,7 @@ META.json
 META.yml
 README
 dist.ini
+dist.ini.meta
 lib/Color/Library/Dictionary/XKCD.pm
 misc/Changes.deps
 misc/Changes.deps.all

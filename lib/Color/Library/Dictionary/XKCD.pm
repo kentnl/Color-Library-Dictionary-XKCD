@@ -2,7 +2,9 @@ use strict;
 use warnings;
 
 package Color::Library::Dictionary::XKCD;
-$Color::Library::Dictionary::XKCD::VERSION = '0.001001';
+
+our $VERSION = '1.000000';
+
 # ABSTRACT: Colors determined by the XKCD Color Survey.
 
 
@@ -2920,7 +2922,7 @@ Color::Library::Dictionary::XKCD - Colors determined by the XKCD Color Survey.
 
 =head1 VERSION
 
-version 0.001001
+version 1.000000
 
 =head1 DESCRIPTION
 
