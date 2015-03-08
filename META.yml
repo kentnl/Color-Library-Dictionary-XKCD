@@ -31,9 +31,9 @@ requires:
   strict: '0'
   warnings: '0'
 resources:
-  bugtracker: https://github.com/kentfredric/Color-Library-Dictionary-XKCD/issues
-  homepage: https://github.com/kentfredric/Color-Library-Dictionary-XKCD
-  repository: https://github.com/kentfredric/Color-Library-Dictionary-XKCD.git
+  bugtracker: https://github.com/kentnl/Color-Library-Dictionary-XKCD/issues
+  homepage: https://github.com/kentnl/Color-Library-Dictionary-XKCD
+  repository: https://github.com/kentnl/Color-Library-Dictionary-XKCD.git
 version: '1.000000'
 x_BuiltWith:
   external_file: misc/built_with.json
