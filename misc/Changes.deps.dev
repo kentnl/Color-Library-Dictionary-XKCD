@@ -1,12 +1,13 @@
 This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and OPTIONAL )
 
-0.1.1
+1.000000
  [Added / develop requires]
  - Dist::Zilla 5
  - Dist::Zilla::Plugin::Author::KENTNL::RecommendFixes 0.004002
  - Dist::Zilla::Plugin::Author::KENTNL::TravisCI 0.001002
  - Dist::Zilla::Plugin::Authority 1.006
  - Dist::Zilla::Plugin::AutoPrereqs
+ - Dist::Zilla::Plugin::BumpVersionAfterRelease
  - Dist::Zilla::Plugin::ConfirmRelease
  - Dist::Zilla::Plugin::Git::Check
  - Dist::Zilla::Plugin::Git::Commit
@@ -14,7 +15,6 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
  - Dist::Zilla::Plugin::Git::Contributors 0.006
  - Dist::Zilla::Plugin::Git::GatherDir
  - Dist::Zilla::Plugin::Git::NextRelease 0.004000
- - Dist::Zilla::Plugin::Git::NextVersion::Sanitized
  - Dist::Zilla::Plugin::Git::Tag
  - Dist::Zilla::Plugin::GithubMeta
  - Dist::Zilla::Plugin::License
@@ -28,7 +28,6 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
  - Dist::Zilla::Plugin::MetaYAML
  - Dist::Zilla::Plugin::MinimumPerl
  - Dist::Zilla::Plugin::ModuleBuild
- - Dist::Zilla::Plugin::PkgVersion
  - Dist::Zilla::Plugin::PodCoverageTests
  - Dist::Zilla::Plugin::PodSyntaxTests
  - Dist::Zilla::Plugin::PodWeaver
@@ -39,6 +38,7 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
  - Dist::Zilla::Plugin::Prereqs::Upgrade
  - Dist::Zilla::Plugin::Readme::Brief
  - Dist::Zilla::Plugin::ReadmeAnyFromPod
+ - Dist::Zilla::Plugin::RewriteVersion::Sanitized
  - Dist::Zilla::Plugin::RunExtraTests
  - Dist::Zilla::Plugin::Test::CPAN::Changes
  - Dist::Zilla::Plugin::Test::Compile::PerFile

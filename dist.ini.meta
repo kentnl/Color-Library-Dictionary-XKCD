@@ -9,7 +9,7 @@ copyright_holder = Kent Fredric <kentfredric@gmail.com>
 
 [@Author::KENTNL]
 :version          = 1.2.0
-git_versions      = 1
+bumpversions      = 1
 ; version_major     = 0
 ; version_minor     = 1
 ; the following data denotes when this minor was minted
