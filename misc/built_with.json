@@ -56,6 +56,7 @@
       "Dist::Zilla::Plugin::UploadToCPAN" : "5.032",
       "Dist::Zilla::PluginBundle::Author::KENTNL" : "2.024001",
       "ExtUtils::MakeMaker" : "7.04",
+      "File::ShareDir" : "1.102",
       "File::Spec" : "3.53",
       "Moo" : "2.000000",
       "Pod::Coverage::TrustPod" : "0.100003",

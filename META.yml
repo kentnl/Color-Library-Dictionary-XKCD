@@ -26,6 +26,7 @@ recommends:
 requires:
   Color::Library: '0.021'
   Color::Library::Dictionary: '0'
+  File::ShareDir: '0'
   Moo: '0'
   perl: '5.006'
   strict: '0'
