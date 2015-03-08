@@ -967,7 +967,7 @@ The findings of this survey can be found here: [**`blog.xkcd.com/2010/05/03/colo
 
 # AUTHOR
 
-Kent Fredric <kentfredric@gmail.com>
+Kent Fredric <kentnl@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
