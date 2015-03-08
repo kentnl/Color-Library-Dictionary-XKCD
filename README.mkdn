@@ -4,7 +4,7 @@ Color::Library::Dictionary::XKCD - Colors determined by the XKCD Color Survey.
 
 # VERSION
 
-version 1.000000
+version 1.000001
 
 # DESCRIPTION
 
