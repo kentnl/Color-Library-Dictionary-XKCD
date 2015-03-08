@@ -10,8 +10,8 @@ our $VERSION = '1.000000';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-use Moo qw( extends override );
-use Color::Library 0.021 qw();
+use Moo qw( extends );
+use Color::Library 0.021;
 use File::ShareDir qw( dist_file );
 extends 'Color::Library::Dictionary';
 
