@@ -8,6 +8,10 @@ copyright_holder = Kent Fredric <kentfredric@gmail.com>
 ; Uncomment this to bootstrap via self 
 ; [Bootstrap::lib]
 
+[MungeFile::WithDataSection]
+:version = 0.003
+finder = :InstallModules
+
 [@Author::KENTNL]
 :version          = 1.2.0
 bumpversions      = 1
