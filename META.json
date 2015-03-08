@@ -34,6 +34,7 @@
             "Dist::Zilla::Plugin::AutoPrereqs" : "0",
             "Dist::Zilla::Plugin::BumpVersionAfterRelease" : "0",
             "Dist::Zilla::Plugin::ConfirmRelease" : "0",
+            "Dist::Zilla::Plugin::CopyFilesFromBuild" : "0",
             "Dist::Zilla::Plugin::Git::Check" : "0",
             "Dist::Zilla::Plugin::Git::Commit" : "0",
             "Dist::Zilla::Plugin::Git::CommitBuild" : "0",
@@ -216,7 +217,8 @@
                   "exclude_filename" : [
                      "README",
                      "README.mkdn",
-                     "README.pod"
+                     "README.pod",
+                     "LICENSE"
                   ],
                   "exclude_match" : [],
                   "follow_symlinks" : "0",
@@ -259,6 +261,11 @@
             "class" : "Dist::Zilla::Plugin::Author::KENTNL::TravisCI",
             "name" : "@Author::KENTNL/Author::KENTNL::TravisCI",
             "version" : "0.001002"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::CopyFilesFromBuild",
+            "name" : "@Author::KENTNL/CopyXBuild",
+            "version" : "0.150250"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaTests",

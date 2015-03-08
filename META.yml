@@ -102,6 +102,7 @@ x_Dist_Zilla:
             - README
             - README.mkdn
             - README.pod
+            - LICENSE
           exclude_match: []
           follow_symlinks: '0'
           include_dotfiles: '1'
@@ -134,6 +135,10 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Author::KENTNL::TravisCI
       name: '@Author::KENTNL/Author::KENTNL::TravisCI'
       version: '0.001002'
+    -
+      class: Dist::Zilla::Plugin::CopyFilesFromBuild
+      name: '@Author::KENTNL/CopyXBuild'
+      version: '0.150250'
     -
       class: Dist::Zilla::Plugin::MetaTests
       name: '@Author::KENTNL/MetaTests'
