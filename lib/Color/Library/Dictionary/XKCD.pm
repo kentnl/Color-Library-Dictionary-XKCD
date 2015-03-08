@@ -984,8 +984,8 @@ __PACKAGE__->_register_dictionary;
 sub _load_color_list {
 
 ## no critic (ProhibitMagicNumbers)
-
-  return [  do dist_file('colour_list.pl')  ];
+  my $file = dist_file('color_list.pl');
+  return [ do $file ];
 
 ## use critic
 }
