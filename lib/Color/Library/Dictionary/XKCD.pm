@@ -7,6 +7,8 @@ our $VERSION = '1.000000';
 
 # ABSTRACT: Colors determined by the XKCD Color Survey.
 
+our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
+
 
 
 

@@ -7,6 +7,8 @@ our $VERSION = '1.000000';
 
 # ABSTRACT: Colors determined by the XKCD Color Survey.
 
+# AUTHORITY
+
 =head1 DESCRIPTION
 
 The web comic L<<< B<< C<XKCD> >>|http://xkcd.com >>> ran a rather wide-spread color survey
