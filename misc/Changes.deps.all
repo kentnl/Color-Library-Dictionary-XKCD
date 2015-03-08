@@ -70,6 +70,9 @@ This file contains ALL changes in dependencies in both REQUIRED / OPTIONAL depen
  [Added / runtime recommends]
  - Moo 1.000008
 
+ [Added / runtime requires]
+ - File::ShareDir
+
  [Added / test recommends]
  - CPAN::Meta 2.120900
  - ExtUtils::MakeMaker 7.00
@@ -78,6 +81,7 @@ This file contains ALL changes in dependencies in both REQUIRED / OPTIONAL depen
  [Added / test requires]
  - ExtUtils::MakeMaker
  - File::Spec
+ - Test::File::ShareDir::Dist
  - perl 5.006
 
  [Changed / develop suggests]

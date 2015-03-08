@@ -982,12 +982,8 @@ extends 'Color::Library::Dictionary';
 __PACKAGE__->_register_dictionary;
 
 sub _load_color_list {
-
-## no critic (ProhibitMagicNumbers)
   my $file = dist_file( 'Color-Library-Dictionary-XKCD', 'color_list.pl' );
   return [ do $file ];
-
-## use critic
 }
 
 sub _description {
