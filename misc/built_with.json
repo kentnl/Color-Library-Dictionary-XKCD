@@ -63,6 +63,7 @@
       "Test::CPAN::Changes" : "0.30",
       "Test::CPAN::Meta" : "0.24",
       "Test::EOL" : "1.5",
+      "Test::File::ShareDir::Dist" : "1.001001",
       "Test::Kwalitee" : "1.22",
       "Test::More" : "1.301001_098",
       "Test::Pod" : "1.48",

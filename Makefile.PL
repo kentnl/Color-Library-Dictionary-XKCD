@@ -28,6 +28,7 @@ my %WriteMakefileArgs = (
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
+    "Test::File::ShareDir::Dist" => 0,
     "Test::More" => "0.89"
   },
   "VERSION" => "1.000000",
@@ -44,6 +45,7 @@ my %FallbackPrereqs = (
   "File::ShareDir" => 0,
   "File::Spec" => 0,
   "Moo" => 0,
+  "Test::File::ShareDir::Dist" => 0,
   "Test::More" => "0.89",
   "strict" => 0,
   "warnings" => 0
