@@ -36,6 +36,7 @@ for my $color (@colors) {
   local $Data::Dumper::Useqq     = 0;
   local $Data::Dumper::Indent    = 0;
   local $Data::Dumper::Quotekeys = 0;
-  print Dumper($color);
-  print qq[,\n];
+  my $line = Dumper($color);
+  $line =~ s/\]$/,]/g;
+  print qq[$line,\n];
 }
