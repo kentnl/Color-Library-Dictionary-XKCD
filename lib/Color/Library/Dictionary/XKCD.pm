@@ -10,8 +10,8 @@ our $VERSION = '1.000000';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-use Color::Library 0.021;
-use Moo qw( extends );
+use Color::Library 0.021 qw();
+use Moo qw( extends override );
 use File::ShareDir qw( dist_file );
 extends 'Color::Library::Dictionary';
 
@@ -20,7 +20,7 @@ __PACKAGE__->_register_dictionary;
 sub _load_color_list {
   my $file = dist_file( 'Color-Library-Dictionary-XKCD', 'color_list.pl' );
   return [ do $file ];
-}
+};
 
 sub _description {
   return {
