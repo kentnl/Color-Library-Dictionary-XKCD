@@ -21,14 +21,12 @@ misc/Changes.deps.opt
 misc/built_with.json
 misc/perlcritic.deps
 perlcritic.rc
-resources/XKCD.pm.tpl
 resources/assemble_colorlist.pl
 resources/assemble_colorlist_pod.pl
 resources/colorlist.pl.tplp
 resources/colorlist.pod.tplp
 resources/fetch_rgb_txt.pl
 resources/rgb.txt
-resources/tpl_to_pm.pl
 share/color_list.pl
 t/00-compile/lib_Color_Library_Dictionary_XKCD_pm.t
 t/00-report-prereqs.dd
