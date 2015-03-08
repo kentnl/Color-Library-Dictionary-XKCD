@@ -985,9 +985,7 @@ sub _load_color_list {
 
 ## no critic (ProhibitMagicNumbers)
 
-  return [
-    do dist_file('colour_list.pl')
-  ];
+  return [  do dist_file('colour_list.pl')  ];
 
 ## use critic
 }
