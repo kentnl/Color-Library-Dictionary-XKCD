@@ -5,6 +5,7 @@ use warnings;
 use Test::More;
 
 use Color::Library;
+use Test::File::ShareDir::Dist { 'Color-Library-Dictionary-XKCD' => 'share' };
 
 {
   my $windows_blue = Color::Library->color('windows blue');
