@@ -11,7 +11,7 @@ our $VERSION = '1.000000';
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
 use Color::Library 0.021;
-use Moo;
+use Moo qw( extends );
 use File::ShareDir qw( dist_file );
 extends 'Color::Library::Dictionary';
 

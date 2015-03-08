@@ -44,6 +44,15 @@ x_Dist_Zilla:
     version: '5.021009'
   plugins:
     -
+      class: Dist::Zilla::Plugin::MungeFile::WithDataSection
+      config:
+        Dist::Zilla::Plugin::MungeFile::WithDataSection:
+          files: []
+          finder:
+            - ':InstallModules'
+      name: MungeFile::WithDataSection
+      version: '0.007'
+    -
       class: Dist::Zilla::Plugin::MetaConfig
       name: '@Author::KENTNL/MetaConfig'
       version: '5.032'
