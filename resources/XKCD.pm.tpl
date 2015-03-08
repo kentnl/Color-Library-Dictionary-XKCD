@@ -27,21 +27,14 @@ The findings of this survey can be found here: L<<< B<< C<blog.xkcd.com/2010/05/
 
 use Color::Library 0.021;
 use Moo;
+use File::ShareDir qw( dist_file );
 extends 'Color::Library::Dictionary';
 
 __PACKAGE__->_register_dictionary;
 
 sub _load_color_list {
-
-## no critic (ProhibitMagicNumbers)
-
-  return [
-
-{% colors %}
-
-  ];
-
-## use critic
+  my $file = dist_file( 'Color-Library-Dictionary-XKCD', 'color_list.pl' );
+  return [ do $file ];
 }
 
 sub _description {
