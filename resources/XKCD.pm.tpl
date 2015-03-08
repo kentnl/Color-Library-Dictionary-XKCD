@@ -3,6 +3,8 @@ use warnings;
 
 package Color::Library::Dictionary::XKCD;
 
+our $VERSION = '1.000000';
+
 # ABSTRACT: Colors determined by the XKCD Color Survey.
 
 =head1 DESCRIPTION

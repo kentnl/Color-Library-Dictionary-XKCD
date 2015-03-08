@@ -12,11 +12,13 @@ README
 dist.ini
 dist.ini.meta
 lib/Color/Library/Dictionary/XKCD.pm
+maint/perlcritic.rc.gen.pl
 misc/Changes.deps
 misc/Changes.deps.all
 misc/Changes.deps.dev
 misc/Changes.deps.opt
 misc/built_with.json
+misc/perlcritic.deps
 perlcritic.rc
 resources/XKCD.pm.tpl
 resources/assemble_colorlist.pl
