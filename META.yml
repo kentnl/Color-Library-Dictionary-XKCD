@@ -21,7 +21,7 @@ name: Color-Library-Dictionary-XKCD
 provides:
   Color::Library::Dictionary::XKCD:
     file: lib/Color/Library/Dictionary/XKCD.pm
-    version: '1.000000'
+    version: '1.000001'
 recommends:
   Moo: '1.000008'
 requires:
@@ -36,7 +36,7 @@ resources:
   bugtracker: https://github.com/kentnl/Color-Library-Dictionary-XKCD/issues
   homepage: https://github.com/kentnl/Color-Library-Dictionary-XKCD
   repository: https://github.com/kentnl/Color-Library-Dictionary-XKCD.git
-version: '1.000000'
+version: '1.000001'
 x_BuiltWith:
   external_file: misc/built_with.json
 x_Dist_Zilla:
@@ -400,7 +400,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: 0
-          tag: 1.000000-source
+          tag: 1.000001-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -454,7 +454,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: 0
-          tag: '1.000000'
+          tag: '1.000001'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local

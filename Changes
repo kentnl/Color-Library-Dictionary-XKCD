@@ -1,5 +1,7 @@
 Release history for Color-Library-Dictionary-XKCD
 
+1.000001 2015-03-08T15:35:28Z 8dc635f
+
 1.000000 2015-03-08T13:38:42Z cef6b43
  [Dependencies::Stats]
  - Dependencies changed since 0.1.0, see misc/*.deps* for details
