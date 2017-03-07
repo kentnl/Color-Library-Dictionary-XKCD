@@ -1,5 +1,7 @@
 Release history for Color-Library-Dictionary-XKCD
 
+1.000002 2017-03-07T15:41:56Z 40dd0d5
+
 1.000001 2017-03-07T15:41:17Z e43699f
  - Bugfix: Fix test failures with -Ddefault_inc_excludes_dot
 

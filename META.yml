@@ -21,7 +21,7 @@ name: Color-Library-Dictionary-XKCD
 provides:
   Color::Library::Dictionary::XKCD:
     file: lib/Color/Library/Dictionary/XKCD.pm
-    version: '1.000001'
+    version: '1.000002'
 recommends:
   Moo: '1.000008'
 requires:
@@ -36,4 +36,4 @@ resources:
   bugtracker: https://github.com/kentnl/Color-Library-Dictionary-XKCD/issues
   homepage: https://github.com/kentnl/Color-Library-Dictionary-XKCD
   repository: https://github.com/kentnl/Color-Library-Dictionary-XKCD.git
-version: '1.000001'
+version: '1.000002'

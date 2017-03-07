@@ -4,7 +4,7 @@ use warnings;
 
 package Color::Library::Dictionary::XKCD;
 
-our $VERSION = '1.000001';
+our $VERSION = '1.000002';
 
 # ABSTRACT: Colors determined by the XKCD Color Survey.
 
@@ -52,7 +52,7 @@ Color::Library::Dictionary::XKCD - Colors determined by the XKCD Color Survey.
 
 =head1 VERSION
 
-version 1.000001
+version 1.000002
 
 =head1 DESCRIPTION
 
