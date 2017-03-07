@@ -13,4 +13,3 @@ This file contains changes in OPTIONAL dependencies for standard CPAN phases (co
  - CPAN::Meta 2.120900
  - ExtUtils::MakeMaker 7.00
  - Test::More 0.99
-
